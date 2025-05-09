@@ -62,6 +62,8 @@ public class Server {
         		}catch(SocketException se){
         			if(se.getMessage().contains("Socket closed")){
         				//servidorActivo = false;
+        			}else if(se.getMessage().contains("accept failed")){
+        				
         			}else{
         				se.printStackTrace();
         			}
