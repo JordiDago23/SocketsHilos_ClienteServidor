@@ -1,2 +1,2 @@
 # SocketsHilos_ClienteServidor
-Trata de un proyecto en Java aplicando la lógica de Sockets y Hilos para crear una interacción Cliente-Servidor que podrá alojar tantos clientes en el Servidor como dese el usuario.
+Trata de un proyecto en Java aplicando la lógica de Sockets y Hilos para crear una interacción Cliente-Servidor que podrá alojar tantos clientes en el Servidor como dese el usuario hasta que mencione la palabra especial del cliente para desconectarse, el cliente le envie su palabra clave para desconectarle o el servidor escriba su palabra clave para cerar todos los chats de los clientes y cerrarse.
